@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dieta Andrea</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 30px 20px;
+            color: #1a1a1a;
+            line-height: 1.5;
+        }
+        h1 {
+            font-size: 28px;
+            margin-bottom: 4px;
+        }
+        .subtitle {
+            font-size: 16px;
+            color: #555;
+            margin-bottom: 8px;
+        }
+        .rule {
+            font-size: 14px;
+            color: #777;
+            margin-bottom: 30px;
+            font-style: italic;
+        }
+        h2 {
+            font-size: 20px;
+            margin-bottom: 12px;
+            padding-bottom: 6px;
+            border-bottom: 2px solid #e0e0e0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+        }
+        th {
+            background: #f5f5f5;
+            text-align: left;
+            padding: 10px 12px;
+            font-size: 13px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: #666;
+            border-bottom: 2px solid #ddd;
+        }
+        td {
+            padding: 10px 12px;
+            border-bottom: 1px solid #eee;
+            font-size: 15px;
+        }
+        tr:last-child td {
+            border-bottom: none;
+        }
+        .emoji {
+            font-size: 18px;
+            margin-right: 6px;
+        }
+        .note {
+            color: #888;
+            font-size: 13px;
+        }
+        .verdure {
+            background: #f0f7f0;
+            border-radius: 8px;
+            padding: 16px 20px;
+            margin-bottom: 30px;
+            font-size: 16px;
+        }
+        .verdure span {
+            font-weight: 600;
+        }
+        @media print {
+            body {
+                padding: 15px;
+                max-width: 100%;
+            }
+            h1 { font-size: 24px; }
+            td, th { padding: 7px 10px; font-size: 13px; }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>🍽️ Dieta Andrea</h1>
+    <p class="subtitle">Ogni pasto: <strong>1 proteina + 1 carbo + verdure</strong></p>
+    <p class="rule">Sono tutti intercambiabili: qualsiasi proteina con qualsiasi carbo</p>
+
+    <h2>🥩 Proteine — scegliere UNA per pasto</h2>
+    <table>
+        <tr>
+            <th>Cosa</th>
+            <th>Quantità</th>
+            <th>Note</th>
+        </tr>
+        <tr>
+            <td><span class="emoji">🐔</span> Petto di pollo</td>
+            <td>200-250g</td>
+            <td class="note">Piastra, forno, bollito</td>
+        </tr>
+        <tr>
+            <td><span class="emoji">🦃</span> Fesa di tacchino</td>
+            <td>200-250g</td>
+            <td class="note">Piastra, bollita</td>
+        </tr>
+        <tr>
+            <td><span class="emoji">🥩</span> Filetto di manzo magro</td>
+            <td>220-280g</td>
+            <td class="note">Piastra, forno</td>
+        </tr>
+        <tr>
+            <td><span class="emoji">🐟</span> Orata</td>
+            <td>250-300g</td>
+            <td class="note">Forno, piastra</td>
+        </tr>
+        <tr>
+            <td><span class="emoji">🐟</span> Salmone</td>
+            <td>220-260g</td>
+            <td class="note">Forno, piastra. Senza olio</td>
+        </tr>
+        <tr>
+            <td><span class="emoji">🥫</span> Tonno al naturale</td>
+            <td>200-250g sgocciolato</td>
+            <td class="note">4 scatolette piccole</td>
+        </tr>
+        <tr>
+            <td><span class="emoji">🌿</span> Seitan</td>
+            <td>250g (1 conf)</td>
+            <td class="note">In padella</td>
+        </tr>
+        <tr>
+            <td><span class="emoji">🍳</span> Frittata</td>
+            <td>3 uova + 260g albume</td>
+            <td class="note">In padella con poco olio</td>
+        </tr>
+        <tr>
+            <td><span class="emoji">🥓</span> Bresaola</td>
+            <td>200g</td>
+            <td class="note">Pronta</td>
+        </tr>
+        <tr>
+            <td><span class="emoji">🥓</span> Fesa tacchino affettata</td>
+            <td>200g</td>
+            <td class="note">Pronta</td>
+        </tr>
+    </table>
+
+    <h2>🍚 Carbo — scegliere UNO per pasto</h2>
+    <table>
+        <tr>
+            <th>Cosa</th>
+            <th>Pranzo</th>
+            <th>Cena</th>
+        </tr>
+        <tr>
+            <td><span class="emoji">🍚</span> Riso</td>
+            <td>80g</td>
+            <td>130g</td>
+        </tr>
+        <tr>
+            <td><span class="emoji">🫘</span> Cous cous</td>
+            <td>90g</td>
+            <td>150g</td>
+        </tr>
+        <tr>
+            <td><span class="emoji">🥔</span> Patate</td>
+            <td>350g</td>
+            <td>550g</td>
+        </tr>
+        <tr>
+            <td><span class="emoji">🍞</span> Pane</td>
+            <td>100g</td>
+            <td>150g</td>
+        </tr>
+        <tr>
+            <td><span class="emoji">🫓</span> Gallette mais</td>
+            <td>70g</td>
+            <td>115g</td>
+        </tr>
+    </table>
+
+    <div class="verdure">
+        <span>🥦 Verdure:</span> a ogni pasto, qualsiasi tipo, gran quantità.
+    </div>
+
+</body>
+</html>
